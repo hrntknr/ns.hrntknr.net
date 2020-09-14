@@ -1,0 +1,17 @@
+---
+providers:
+  yaml:
+    class: octodns.provider.yaml.YamlProvider
+    directory: ./config
+    default_ttl: 60
+    enforce_order: False
+  googlecloud:
+    class: octodns.provider.googlecloud.GoogleCloudProvider
+    project: hrn-takanori
+    credentials_file: ./gcp-credentials.json
+zones:
+  hrntknr.net.:
+    sources:
+      - yaml
+    targets:
+      - googlecloud
