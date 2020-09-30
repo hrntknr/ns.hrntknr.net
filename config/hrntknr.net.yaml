@@ -7,6 +7,10 @@
     - 185.199.110.153
     - 185.199.111.153
 
+actions:
+  type: CNAME
+  value: cos.hrntknr.net.
+
 jiji:
   type: A
   values:
@@ -23,7 +27,7 @@ cpu:
   type: A
   values:
     - 10.196.36.5
-actions:
+cos:
   type: A
   values:
-    - 34.123.206.72 
+    - 34.123.133.66
