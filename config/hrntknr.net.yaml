@@ -11,12 +11,16 @@
       - v=spf1 -all
   - type: MX
     values:
-      - exchange: 114.164.110.141
+      - exchange: mail.hrntknr.net.
         preference: 10
 
 actions:
   type: CNAME
   value: cos.hrntknr.net.
+mail:
+  type: A
+  values:
+    - 114.164.110.141
 
 jiji:
   type: A
