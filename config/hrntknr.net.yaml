@@ -15,7 +15,8 @@
         preference: 10
 _dmarc:
   type: TXT
-  values: '"v=DMARC1\\; p=reject\\; pct=100\\; adkim=s\\; aspf=s\\; rua=mailto:dmarc-rua@hrntknr.net\\; ruf=mailto:dmarc-ruf@hrntknr.net\\;"'
+  values:
+    - v=DMARC1\; p=reject\; pct=100\; adkim=s\; aspf=s\; rua=mailto:dmarc-rua@hrntknr.net\; ruf=mailto:dmarc-ruf@hrntknr.net\;
 
 actions:
   type: CNAME
