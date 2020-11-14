@@ -17,10 +17,6 @@ _dmarc:
   type: TXT
   values:
     - v=DMARC1\; p=reject\; pct=100\; adkim=s\; aspf=s\; rua=mailto:dmarc-rua@hrntknr.net\; ruf=mailto:dmarc-ruf@hrntknr.net\;
-
-actions:
-  type: CNAME
-  value: cos.hrntknr.net.
 mail:
   type: A
   values:
@@ -42,7 +38,3 @@ cpu:
   type: A
   values:
     - 10.196.36.5
-cos:
-  type: A
-  values:
-    - 34.123.133.66
