@@ -25,7 +25,7 @@ mail:
 jiji:
   type: A
   values:
-    - 10.196.36.2
+    - 10.196.37.2
 fou:
   type: A
   values:
@@ -33,7 +33,7 @@ fou:
 sh1:
   type: A
   values:
-    - 10.196.36.4
+    - 10.196.37.4
 cpu:
   type: A
   values:
