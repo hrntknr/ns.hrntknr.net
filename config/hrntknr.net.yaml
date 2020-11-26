@@ -21,6 +21,10 @@ mail:
   type: A
   values:
     - 114.164.110.141
+mc:
+  type: A
+  values:
+    - 114.164.110.141
 
 jiji:
   type: A
