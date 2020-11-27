@@ -26,6 +26,10 @@ mc:
   values:
     - 114.164.110.141
 
+cpu:
+  type: A
+  values:
+    - 10.196.37.1
 jiji:
   type: A
   values:
@@ -38,7 +42,7 @@ sh1:
   type: A
   values:
     - 10.196.37.4
-cpu:
+tanuki:
   type: A
   values:
-    - 10.196.36.5
+    - 10.196.37.5
