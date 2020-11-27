@@ -27,22 +27,37 @@ mc:
     - 114.164.110.141
 
 cpu:
-  type: A
-  values:
-    - 10.196.37.1
+  - type: A
+    values:
+      - 10.196.37.1
+  - type: AAAA
+    values:
+      - fc00::ac4:2501
 jiji:
-  type: A
-  values:
-    - 10.196.37.2
+  - type: A
+    values:
+      - 10.196.37.2
+  - type: AAAA
+    values:
+      - fc00::ac4:2502
 fou:
-  type: A
-  values:
-    - 10.196.36.3
+  - type: A
+    values:
+      - 10.196.36.3
+  - type: AAAA
+    values:
+      - fc00::ac4:2503
 sh1:
-  type: A
-  values:
-    - 10.196.37.4
+  - type: A
+    values:
+      - 10.196.37.4
+  - type: AAAA
+    values:
+      - fc00::ac4:2504
 tanuki:
-  type: A
-  values:
-    - 10.196.37.5
+  - type: A
+    values:
+      - 10.196.37.5
+  - type: AAAA
+    values:
+      - fc00::ac4:2505
