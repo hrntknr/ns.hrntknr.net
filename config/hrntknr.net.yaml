@@ -54,4 +54,11 @@ sh1:
   - type: AAAA
     values:
       - fc00::ac4:2504
+jiji:
+  - type: A
+    values:
+      - 10.196.37.7
+  - type: AAAA
+    values:
+      - fc00::ac4:2507
 
