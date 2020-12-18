@@ -61,4 +61,10 @@ jiji:
   - type: AAAA
     values:
       - fc00::ac4:2507
-
+jerry:
+  - type: A
+    values:
+      - 10.196.37.8
+  - type: AAAA
+    values:
+      - fc00::ac4:2508
