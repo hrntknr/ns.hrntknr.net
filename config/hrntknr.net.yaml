@@ -33,7 +33,7 @@ cpu:
   - type: AAAA
     values:
       - fc00::ac4:2501
-tanuki:
+nemo:
   - type: A
     values:
       - 10.196.37.2
