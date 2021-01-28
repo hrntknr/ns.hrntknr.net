@@ -43,7 +43,7 @@ nemo:
 fou:
   - type: A
     values:
-      - 10.196.36.3
+      - 10.196.37.3
   - type: AAAA
     values:
       - fc00::ac4:2503
