@@ -20,11 +20,11 @@ _dmarc:
 mail:
   type: A
   values:
-    - 153.209.140.165
+    - 114.164.181.95
 mc:
   type: A
   values:
-    - 153.209.140.165
+    - 114.164.181.95
 
 cpu:
   - type: A
