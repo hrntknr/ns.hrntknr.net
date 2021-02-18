@@ -1,28 +1,30 @@
 name: deploy
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-    - name: Set up Python 3.7
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.7
-    - name: Install pipenv and dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pipenv --upgrade-strategy=only-if-needed
-        pipenv install
-    - name: Decrypt GCP credentials
-      run: gpg --quiet --armor --batch --yes --decrypt --passphrase="$GCP_CREDENTIALS_PASSPHRASE" --output gcp-credentials.json gcp-credentials.json.asc
-      env:
-        GCP_CREDENTIALS_PASSPHRASE: ${{ secrets.GCP_CREDENTIALS_PASSPHRASE }}
-    - name: Deploy
-      run: |
-        pipenv run deploy
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+      - name: Install pipenv and dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pipenv --upgrade-strategy=only-if-needed
+          pipenv install
+      - name: Decrypt GCP credentials
+        run: gpg --quiet --armor --batch --yes --decrypt --passphrase="$GCP_CREDENTIALS_PASSPHRASE" --output gcp-credentials.json gcp-credentials.json.asc
+        env:
+          GCP_CREDENTIALS_PASSPHRASE: ${{ secrets.GCP_CREDENTIALS_PASSPHRASE }}
+      - name: Deploy
+        run: |
+          pipenv run deploy
