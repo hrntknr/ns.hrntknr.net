@@ -26,45 +26,19 @@ mc:
   values:
     - 153.217.203.20
 
-cpu:
+ts.cpu:
   - type: A
     values:
-      - 10.196.37.1
-  - type: AAAA
-    values:
-      - fc00::ac4:2501
-nemo:
+      - 100.104.115.59
+ts.ve1:
   - type: A
     values:
-      - 10.196.37.2
-  - type: AAAA
-    values:
-      - fc00::ac4:2502
-fou:
+      - 100.72.2.80
+ts.jiji:
   - type: A
     values:
-      - 10.196.37.3
-  - type: AAAA
-    values:
-      - fc00::ac4:2503
-sh1:
+      - 100.92.30.109
+ts.jerry:
   - type: A
     values:
-      - 10.196.37.4
-  - type: AAAA
-    values:
-      - fc00::ac4:2504
-jiji:
-  - type: A
-    values:
-      - 10.196.37.7
-  - type: AAAA
-    values:
-      - fc00::ac4:2507
-jerry:
-  - type: A
-    values:
-      - 10.196.37.8
-  - type: AAAA
-    values:
-      - fc00::ac4:2508
+      - 100.97.87.11
