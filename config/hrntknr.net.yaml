@@ -26,6 +26,24 @@ mc:
   values:
     - 153.217.203.20
 
+pve1:
+  - type: A
+    values:
+      - 10.196.0.10
+sw1:
+  - type: A
+    values:
+      - 10.196.0.12
+
+cpu:
+  - type: A
+    values:
+      - 10.0.0.39
+ve1:
+  - type: A
+    values:
+      - 10.0.0.65
+
 ts.cpu:
   - type: A
     values:
