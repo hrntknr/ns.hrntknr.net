@@ -30,14 +30,14 @@ pve1:
   - type: A
     values:
       - 10.196.0.10
-maas:
-  - type: A
-    values:
-      - 10.196.0.11
 sw1:
   - type: A
     values:
       - 10.196.0.12
+media:
+  - type: A
+    values:
+      - 10.196.0.20
 
 cpu:
   - type: A
