@@ -38,6 +38,9 @@ epg:
 gw.k8s:
   - type: CNAME
     value: gw.k8s.hirano.work.
+master.k8s:
+  - type: CNAME
+    value: master.k8s.hirano.work.
 
 pve1:
   - type: A
