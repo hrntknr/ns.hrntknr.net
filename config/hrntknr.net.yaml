@@ -35,6 +35,9 @@ ve1:
 epg:
   - type: CNAME
     value: epg.hirano.work.
+gw.k8s:
+  - type: CNAME
+    value: gw.k8s.hirano.work.
 
 pve1:
   - type: A
@@ -48,6 +51,20 @@ media:
   - type: A
     values:
       - 10.196.0.20
+
+
+master1.k8s:
+  - type: A
+    values:
+      - 10.5.0.11
+master2.k8s:
+  - type: A
+    values:
+      - 10.5.0.12
+master3.k8s:
+  - type: A
+    values:
+      - 10.5.0.13
 
 ts.cpu:
   - type: A
