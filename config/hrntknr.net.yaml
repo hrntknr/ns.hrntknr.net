@@ -68,6 +68,10 @@ master3.k8s:
   - type: A
     values:
       - 10.5.0.13
+fn:
+  - type: A
+    values:
+      - 10.5.1.3
 
 ts.cpu:
   - type: A
